@@ -1,0 +1,382 @@
+*{
+    font-family: "Inter", sans-serif;
+    
+}
+
+html,body{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.nav{
+    font-size: 33px;
+    font-weight: 700;
+}
+.nav-item .nav-link{
+
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px;
+    color: black;
+    
+}
+.navbar-nav .active a{
+    background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navbar-nav a:hover {
+    background: linear-gradient(90deg,#4e63e8 0% ,#4b08d1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text h3{
+    
+    padding-top: 30%;
+    font-weight: 600;
+}
+
+
+/* for underscore line */
+/* .text h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+} */
+
+.text h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.text h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.image img{
+    padding: 100px 0;
+    width:90rem;
+}
+
+.button{
+    padding:.8rem 2.2rem ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    
+}
+
+.btn1{
+    background: linear-gradient(90deg,#4e63e8 0% ,#4b08d1 100%);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: 0.6s ease;
+    
+}
+
+.btn1:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+    transition: 0.6s ease;
+    
+}
+
+.btn1::after , .btn2::after{
+    position: absolute;
+    /* top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px; */
+    background: linear-gradient(90deg,#4e63e8 0% ,#4b08d1 100%);
+    content: "";
+    z-index: -1;
+    border-radius: 2px;
+}
+
+.btn2{
+    background: white;
+    background-clip: padding-box;
+    transition: 0.6s ease;
+    border-radius: 4px;
+
+}
+
+.btn2:hover{
+    background: linear-gradient(90deg,#4e63e8 0% ,#4b08d1 100%);
+    color: whitesmoke;  
+}
+
+.aboutSection{
+    padding:2px  ;
+}
+
+.about-text h2 span{
+    display: block;
+    font: normal;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 15px; 
+
+}
+
+.about-text .para{
+    color: darkgrey;
+}
+
+.aboutSection .btn1{
+    font-weight: 500;
+}
+
+.brandsection {
+    padding: 16px 32px;
+    margin-bottom: 64px;
+}
+
+.first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+
+.brandsection .brand{
+    border: 1px solid purple;
+    text-align: center;
+    padding: 20px;
+    margin: 0.9rem 0;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4 ease;
+}
+.brand img{
+    width: 50%;
+}
+
+.brand:hover{
+    box-shadow: #4e63e8;
+    transform: scale(1.1);
+}
+
+/* .brand img:hover{
+    filter: brightness(0.15);
+} */
+
+.experience{
+    padding-left: 1rem;
+}
+.experience span{
+    display: block;
+}
+.experience .years{
+    padding: 2rem;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+}
+
+.experience .bg-panel{
+    position: absolute;
+    background:#e029290a ;
+    width: 400px;
+    top: 88rem;
+    height: 400px;
+    margin-right: 330px;
+    z-index: -1;
+}
+
+.experience .years .year{
+    font: normal bold;
+    font-size: 84px;
+    line-height: 40px;
+    color: #854fee;
+    z-index: 2;
+}
+
+.experience .years h2 span{
+
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.experience .calls{
+    padding-left: 160px;
+}
+
+.servicesSection{
+    padding: 90px 32px;
+}
+
+.servicesSection .service .servicestitle {
+    padding: 0 14rem;
+}
+.servicestitle h1{
+   
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.servicesSection .services{
+    background-color: rgba(248, 252, 253, 0.973);
+    padding: 30px 0;
+    width: 256px;
+    margin: 5rem .5rem;
+    transition: box-shadow.7s ease;
+}
+
+.servicesSection .services:hover{
+ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.projectsection{
+    padding: 64px 0;
+
+}
+
+.project-title h1{
+    font-weight: 600;
+}
+.projectsection .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 16px/130px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+
+.projectsection .elements .project h4{
+
+    font: normal 100px/2px;
+    font-weight: 500;
+
+
+}
+.button-group button:focus , button:active ,button:hover ,
+.btn:active,.btn .active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.grid .img a:hover img{
+
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+
+}
+.aboutmesection .about-me .about-text{
+    padding: 16px 112px;
+    font-weight: 700;
+}
+.client{
+    background: #ffffff10;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin: 3rem 0rem;
+}
+
+.client .client-img{
+    padding: 2rem;
+}
+
+.client .about-client{
+    padding-top: 2rem;
+}
+.client .about-client  h4{
+    font: normal 500 21px/20px;
+}
+
+.client .about-client p{
+    font-size: 14px;
+}
+
+.aboutmesection .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+
+}
+.aboutmesection .owl-carousel .owl-dots .owl-dot.active span{
+    background-color:#4458dc;
+    width: 12px;
+    height: 12px;
+}
+
+.subscribesection .subscribe{
+    background-color: #4e63e8;
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+.subscribe-title h4{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: whitesmoke;
+}
+.subscribe-title p{
+    color: whitesmoke;
+    padding: 1rem 4rem;   
+}
+
+.subscribesection .subscribe form .input-textbox input{
+    width: 400px;
+    padding: 0.8rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font: normal 500 17px/20px ;
+}
+
+.subscribesection .subscribe form .input-textbox input::placeholder{
+    color: whitesmoke;
+}
+
+.subscribesection .subscribe form .btn-submit button{
+    background-color: whitesmoke;
+    color: #000;
+    padding: .7rem 2rem;
+}
+
+.footersection .footer{
+    padding: 80px 0;
+    background-color: wheat;
+}
+.footersection.footer.footer-text h5{
+    font: normal;
+    font-size: 23px;
+    font-weight: 500;
+
+}
+.footer-text a i{
+    font-size: 22px;
+    padding: 2rem;
+    color: #7e8285
+}
+
+.footer-text a i:hover{
+    color: #0c48d6;
+}
+
+.copyright p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+
+
+

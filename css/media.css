@@ -1,0 +1,76 @@
+
+@media only screen and(max-width:340px){
+    .headersection .main_area .navbar ,
+    .headersection .main_area .navbar .navbar-brand,
+    .subscribesection .subscribe .subscribe-title,
+    .subscribesection .subscribe .subscribe-title p ,h4
+    .servicesSection ,
+    .subscribesection .subscribe
+    {
+        padding: 4%;
+        margin: 0%;
+    }
+
+    .mainSection .banner .main .text h1{
+        font-size: 45px;
+    }
+
+    .subscribesection .subscribe form .input-textbox input{
+
+        width: 15rem !important ;
+    }
+    .servicesSection .service{
+        width: 13rem;
+    }
+
+}
+
+@media only screen and(max-width:792px){
+    .aboutSection .about-text h2 span{
+        font-size: 35px;
+        letter-spacing: 1px;
+
+    }
+    .brandsection .experience .years{
+        padding-left: 1%;
+        width: 49%;
+
+    }
+    .brandsection .experience .bg-panel{
+        margin-left: 30%;
+        width: 80%;
+    
+    }
+    .brandsection .brands .experience .calls{
+        padding-left: 3%;
+
+    }
+    .projectsection .projects .button-group button{
+        font: normal 500 18px/40px ;
+    }
+
+    .aboutSection .about .about-text p{
+        padding: 0%;
+    }
+
+    .subscribesection .subscribe form .input-textbox input{
+        width: 20rem;
+        margin: 5%;
+}
+
+
+}
+
+@media only screen and(max-width:1910px){
+    .headersection .main_area .navbar{
+        padding: 1rem;
+    }
+    .container{
+        max-width: 90%;
+    }
+    .brandsection,
+    .servicesSection .service .servicestitle,
+    .aboutSection{
+        padding: 3% 4%;
+    }
+}
